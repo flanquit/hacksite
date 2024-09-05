@@ -1,0 +1,3 @@
+crwl() {
+    wget --tries=inf --timestamping --recursive --level=inf --convert-links --page-requisites --no-parent "$@"
+}
